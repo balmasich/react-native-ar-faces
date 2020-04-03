@@ -15,7 +15,7 @@ def flipper_post_install(installer)
   installer.pods_project.targets.each do |target|
     if target.name == 'YogaKit'
       target.build_configurations.each do |config|
-        config.build_settings['SWIFT_VERSION'] = '4.1'
+        config.build_settings['SWIFT_VERSION'] = '5.0'
       end
     end
   end
@@ -62,6 +62,7 @@ target 'example' do
   # pod 'react-native-ar-faces', :podspec => '../node_modules/react-native-ar-faces/react-native-ar-faces.podspec'
 
   use_native_modules!
+  # use_frameworks!
 
   # Enables Flipper.
   #

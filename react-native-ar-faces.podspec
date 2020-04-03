@@ -18,11 +18,9 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
-  
-  s.frameworks = 'UIKit'
 
   s.dependency "React"
-  s.dependency "ARCore"
+  s.dependency "ARCore", "~> 1.16.0"
   s.dependency "ARCore/AugmentedFaces", "~> 1.16.0"
   # ...
   # s.dependency "..."

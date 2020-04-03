@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 
   s.dependency "React"
+  s.dependency "ARCore"
   s.dependency "ARCore/AugmentedFaces", "~> 1.16.0"
   # ...
   # s.dependency "..."

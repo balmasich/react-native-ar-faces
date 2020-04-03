@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "ARCore", "~> 1.16.0"
   s.dependency "ARCore/AugmentedFaces", "~> 1.16.0"
   # ...
   # s.dependency "..."
